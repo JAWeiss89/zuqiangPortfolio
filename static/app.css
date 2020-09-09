@@ -18,6 +18,10 @@ a {
     color: inherit;
 }
 
+p {
+    margin: 10px 0 10px;
+}
+
 a:hover {
     color: rgb(102, 114, 180);
 }
@@ -44,12 +48,43 @@ header {
     margin: 5px 0 5px;
 }
 
+/* ==================== MAIN CONTENT SECTION ==================== */
+
 #content {
     width: 70%;
 }
 
 .main-img {
     width:100%;
+    margin-bottom: 20px;
+}
+
+/* #content p {
+    margin: 10px 0 10px;
+} */
+
+#specs {
+    margin: 10px 0 0;
+}
+
+#details {
+    margin: 0 0 10px;
+}
+
+
+
+#title {
+    margin: 0 0 20px;
+    font-weight: 300;
+}
+
+iframe {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.bold {
+    font-weight: 600;
 }
 
 .hidden {
