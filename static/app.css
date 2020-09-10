@@ -115,11 +115,11 @@ iframe {
     #nav-button-mobile {
         color: #d9d9d9;
         align-items: center;
-        font-size: 1.6em;
+        font-size: 2em;
         width: 45px;
         height: 45px;
         background-color: #02030d;;
-        border: 1px solid #d9d9d9;
+        border: none;
         border-radius: 3px;
     }
     #films-mobile {
