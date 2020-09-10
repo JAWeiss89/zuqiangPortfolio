@@ -6,6 +6,7 @@
     <title>Peng Zuqiang</title>
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../static/app.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
     <link rel="shortcut icon" href="../static/favicon.ico">
 </head>
 <body>
@@ -20,7 +21,7 @@
                <div id="films">
                    <a href="inauguration.html"><p>Inauguration</p></a>
                    <a href="nan.html"><p>Nan</p></a>
-                   <a href="#"><p>I Don't Remember The Name</p></a>
+                   <a href="#"><p class="current-page">I Don't Remember The Name</p></a>
                    <a href="accordion.html"><p>Accordion Class</p></a>
                    <a href="spanish.html"><p>Spanish Vignettes</p></a>
                    <a href="surface.html"><p>Surface Value</p></a>
@@ -31,6 +32,22 @@
                </div>
             </div>
         </header>
+
+        <div id="navbar-mobile" class="hidden">
+            <button id="nav-button-mobile"><i class="fas fa-bars"></i></button>
+            <div id="films-mobile" class="hidden">
+                <a href="./inauguration.html"><p>Inauguration</p></a>
+                <a href="./nan.html"><p>Nan</p></a>
+                <a href="./remember.html"><p>I Don't Remember The Name</p></a>
+                <a href="./accordion.html"><p>Accordion Class</p></a>
+                <a href="./spanish.html"><p>Spanish Vignettes</p></a>
+                <a href="./surface.html"><p>Surface Value</p></a>
+                <a href="./house.html"><p>The House</p></a>
+            </div>
+            <div id="info-mobile" class="hidden">
+                <a href="./info.html"><p>info</p></a>
+            </div>
+         </div>
     
         <section id="content">
             <h1 id="title">I Don't Remember the Name</h1>
@@ -43,6 +60,6 @@
         </section>
     </div>
 
-
+    <script src="../static/app.js" type="text/javascript"> </script>
 </body>
 </html>

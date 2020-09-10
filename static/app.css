@@ -33,6 +33,7 @@ a:hover {
 
 header {
     width: 20%;
+    padding-right: 10px;
 }
 
 #navbar div {
@@ -42,10 +43,6 @@ header {
 #chinese {
     letter-spacing: 1px;
     font-size: 1.2em;
-}
-
-#films p {
-    margin: 5px 0 5px;
 }
 
 /* ==================== MAIN CONTENT SECTION ==================== */
@@ -59,10 +56,6 @@ header {
     margin-bottom: 20px;
 }
 
-/* #content p {
-    margin: 10px 0 10px;
-} */
-
 #specs {
     margin: 10px 0 0;
 }
@@ -70,8 +63,6 @@ header {
 #details {
     margin: 0 0 10px;
 }
-
-
 
 #title {
     margin: 0 0 20px;
@@ -83,10 +74,63 @@ iframe {
     margin-top: 30px;
 }
 
-.bold {
-    font-weight: 600;
+.current-page {
+    color: rgb(102, 114, 180);
 }
 
 .hidden {
     display: none;
+}
+
+@media only screen and (max-width: 700px) {
+
+    #container {
+        display: block;
+        margin: 20px;
+        position: relative;
+    }
+
+    #films {
+        display: none;
+    }
+
+    #info {
+        display: none;
+    }
+    #content {
+        width: 100%;
+    }
+    header {
+        width: 40%;
+    }
+    #navbar-mobile {
+        display: block;
+        text-align: right;
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-color: #02030d;
+        
+    }
+    #nav-button-mobile {
+        color: #d9d9d9;
+        align-items: center;
+        font-size: 1.6em;
+        width: 45px;
+        height: 45px;
+        background-color: #02030d;;
+        border: 1px solid #d9d9d9;
+        border-radius: 3px;
+    }
+    #films-mobile {
+        padding: 20px 20px 0;
+    }
+
+    #info-mobile {
+        padding: 0 20px 20px;  
+    }
+
+    #films-mobile p {
+        margin: 15px 0 15px;
+    }
 }
