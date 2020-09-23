@@ -40,10 +40,14 @@ header {
     margin-bottom: 20px;
 }
 
-#chinese {
+#my-name {
+    font-size: .6em;
+}
+
+/* #chinese {
     letter-spacing: 1px;
     font-size: 1.2em;
-}
+} */
 
 /* ==================== MAIN CONTENT SECTION ==================== */
 
